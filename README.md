@@ -1,6 +1,7 @@
 # matugen-editors
 
 ### Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload.
+
 [![matugen theming VSCodium + Neovim WITH hot reload!](https://img.youtube.com/vi/SxhlFnLyLbQ/maxresdefault.jpg)](https://youtu.be/SxhlFnLyLbQ)
 
 ## How it works
@@ -41,7 +42,7 @@ Apply opacity via Hyprland window rules — neovim won't look good without it:
 
 ```conf
 windowrule = opacity 0.8 0.85, match:class codium
-windowrule = opacity 0.75 0.8, match:class kitty
+windowrule = opacity 0.7 0.8, match:class kitty
 ```
 
 > **Note:** Double check all file paths throughout the config match your specific system setup.
