@@ -1,7 +1,7 @@
 # matugen-editors
 
 Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload.
-
+[![matugen theming VSCodium + Neovim WITH hot reload!](https://img.youtube.com/vi/SxhlFnLyLbQ/maxresdefault.jpg)](https://youtu.be/SxhlFnLyLbQ)
 VSCodium uses **Dark Modern** for syntax with matugen handling all UI colors on top.
 
 ## How it works
