@@ -42,7 +42,7 @@ Apply opacity via Hyprland window rules — neovim won't look good without it:
 
 ```conf
 windowrule = opacity 0.8 0.85, match:class codium
-windowrule = opacity 0.7 0.8, match:class kitty
+windowrule = match:class kitty, match:title nvim, opacity 0.7 0.8
 ```
 
 > **Note:** Double check all file paths throughout the config match your specific system setup.
