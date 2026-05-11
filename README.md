@@ -12,7 +12,7 @@ matugen generates a `code-colors.jsonc` from your wallpaper → a Python script 
 
 ### 1. matugen config
 
-Add this to your matugen config. Make sure to confirm the `input_path` and `output_path` match your system and update the script path to match your setup:
+Add this to your matugen config.toml Make sure to confirm the `input_path` and `output_path` match your system and update the script path to match your setup:
 
 ```toml
 [templates.code]
