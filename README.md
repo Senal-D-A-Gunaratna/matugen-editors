@@ -1,18 +1,23 @@
 # matugen-editors
 
+Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload.
 
-add this in your matugen congifig
->pleas note
-- use your correct matugen generated "code-colors.jsonc" output path
-- edit the scripts according to your file paths
+## Setup
+
+Add this to your matugen config:
+
+> **Note:** Make sure to use the correct output path for your matugen-generated `code-colors.jsonc` and update the python-script and lua-plugin paths to match your setup.
+
 ```toml
 [templates.code]
 input_path = "~/.config/matugen/templates/code-colors.jsonc"
 output_path = "~/.config/matugen/themes/code-colors.jsonc"
 post_hook = "python ~/.config/scripts/merge-vscode.py && pkill -SIGUSR1 nvim"
-
 ```
-apply opacty using hyprland otherwis it dusnt look good
+
+## Hyprland Window Rules
+
+Apply opacity via Hyprland window rules — the blur effect won't look right without it:
 
 ```conf
 windowrule = opacity 0.8 0.85, match:class codium
