@@ -1,5 +1,10 @@
+# matugen-editors
 
 
+add this in your matugen congifig
+>pleas note
+- use your correct matugen generated "code-colors.jsonc" output path
+- edit the scripts according to your file paths
 ```toml
 [templates.code]
 input_path = "~/.config/matugen/templates/code-colors.jsonc"
