@@ -18,7 +18,7 @@ Add this to your matugen config.toml Make sure to confirm the `input_path` and `
 [templates.code]
 input_path = "~/.config/matugen/templates/code-colors.jsonc"
 output_path = "~/.config/matugen/themes/code-colors.jsonc"
-post_hook = "python ~/.config/scripts/merge-vscode.py && pkill -SIGUSR1 nvim"
+post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 ```
 
 ### 2. VS-Code/Codium
