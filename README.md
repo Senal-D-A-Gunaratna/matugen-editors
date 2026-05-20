@@ -2,6 +2,8 @@
 
 ### Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload.
 
+**Click to watch the demo video below ↴**
+
 [![matugen theming VSCodium + Neovim WITH hot reload!](https://img.youtube.com/vi/SxhlFnLyLbQ/maxresdefault.jpg)](https://youtu.be/SxhlFnLyLbQ)
 
 ## How it works
