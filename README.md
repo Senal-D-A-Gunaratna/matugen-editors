@@ -35,7 +35,7 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 
 Copy both files from the [`neovim directory`](neovim/) on to your respective neovim config directories:
 
-- [`neovim/load-matugen.lua`](neovim/matugen-loader.lua) → `~/.config/nvim/lua/plugins/matugen-loader.lua`
+- [`neovim/matugen-loader.lua`](neovim/matugen-loader.lua) → `~/.config/nvim/lua/plugins/matugen-loader.lua`
 - [`neovim/matugen.lua`](neovim/matugen.lua) → `~/.config/nvim/lua/config/matugen.lua`
 
 Then open `~/.config/nvim/lua/config/matugen.lua` and confirm the `JSON_PATH` at the top matches your `code-colors.jsonc` output path.
