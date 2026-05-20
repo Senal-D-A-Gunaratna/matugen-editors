@@ -28,9 +28,9 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 - Set your VSCodium color theme to **Dark Modern**
 - optionally add this to your `settings.json`
 
-  ```json
-      "window.dialogStyle": "custom"
-    ```
+```json
+"window.dialogStyle": "custom"
+```
 ### 3. Neovim (LazyVim)
 
 Copy both files from the [`plugins/`](plugins/) directory into your LazyVim plugins directory (`~/.config/nvim/lua/plugins/`):
