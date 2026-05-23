@@ -1,6 +1,6 @@
 # matugen-editors
 
-### Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload.
+### Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload
 
 **Click to watch the demo video below ↴**
 
@@ -33,6 +33,7 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 ```json
 "window.dialogStyle": "custom"
 ```
+
 ### 3. Neovim (LazyVim)
 
 go to this [`repo`](https://github.com/Senal-D-A-Gunaratna/matugen.nvim) and install the plugin
