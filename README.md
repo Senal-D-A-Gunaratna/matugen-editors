@@ -36,6 +36,14 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 
 ### 3. Neovim (LazyVim)
 
+- create the plugin file in your neovim config directory
+
+```bash
+nvim ~/.config/nvim/lua/plugins/matugen.lua
+```
+
+- and paste the flowing code
+
 ```lua
 return {
   {
