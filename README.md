@@ -73,4 +73,4 @@ windowrule = opacity 0.8 0.85, match:class codium
 windowrule = match:class kitty, match:title nvim, opacity 0.7 0.8
 ```
 
-> **Note:** Double check all file paths throughout the config match your specific system setup.
+> **Note:** Double check all file paths throughout the config to match your specific system setup
