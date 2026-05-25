@@ -1,6 +1,6 @@
 # matugen-editors
 
-### Wallpaper-driven theming for VSCodium + Neovim from a single JSON — with hot reload
+### Matugen theming for VSCodium + Neovim from a single JSONC file — with hot reload
 
 **Click to watch the demo video below ↴**
 
