@@ -64,9 +64,17 @@ for more info go to the [`plugins_repo`](https://github.com/Senal-D-A-Gunaratna/
 
 Apply opacity via Hyprland window rules — neovim won't look good without it:
 
-```conf
-windowrule = opacity 0.8 0.85, match:class codium
-windowrule = match:class kitty, match:title nvim, opacity 0.7 0.8
+```lua
+
+hl.window_rule({
+	match = { class = "codium" },
+	opacity = opacity,
+})
+
+hl.window_rule({
+	match = { class = "kitty", title = "nvim" },
+	opacity = opacity,
+})
 ```
 
 > **Note:** Double check all file paths throughout the config to match your specific system setup
