@@ -68,12 +68,12 @@ Apply opacity via Hyprland window rules — neovim won't look good without it:
 
 hl.window_rule({
 	match = { class = "codium" },
-	opacity = opacity,
+	opacity = "0.7",
 })
 
 hl.window_rule({
 	match = { class = "kitty", title = "nvim" },
-	opacity = opacity,
+	opacity = "0.7",
 })
 ```
 
