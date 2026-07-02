@@ -34,15 +34,8 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 "window.dialogStyle": "custom"
 ```
 
-### 3. Neovim (LazyVim)
-
-- create the plugin file in your neovim config directory
-
-```bash
-nvim ~/.config/nvim/lua/plugins/matugen.lua
-```
-
-- and paste the flowing code
+### 3. NeoVim
+**Install via `lazy.nvim`**
 
 ```lua
 {
@@ -57,6 +50,8 @@ nvim ~/.config/nvim/lua/plugins/matugen.lua
   },
 },
 ```
+
+> **Note:** If the palette file fails to load, the plugin falls back to a built-in dark theme and notifies you
 
 for more info go to the [`plugins_repo`](https://github.com/Senal-D-A-Gunaratna/matugen.nvim)
 
