@@ -60,15 +60,16 @@ for more info go to the [`plugins_repo`](https://github.com/Senal-D-A-Gunaratna/
 Apply opacity via Hyprland window rules — neovim won't look good without it:
 
 ```lua
+local editor-opacity = 0.7
 
 hl.window_rule({
 	match = { class = "codium" },
-	opacity = "0.7",
+	opacity = editor-opacity,
 })
 
 hl.window_rule({
 	match = { class = "kitty", title = "nvim" },
-	opacity = "0.7",
+	opacity = editor-opacity,
 })
 ```
 
