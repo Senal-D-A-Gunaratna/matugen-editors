@@ -23,7 +23,7 @@ output_path = "~/.config/matugen/themes/code-colors.jsonc"
 post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 ```
 
-### 2. VS-Code/Codium
+### 2. VS-Code/Codium NO-LONGER SUPPORTED
 
 - Copy [`code-colors.jsonc`](code-colors.jsonc) to your matugen templates directory
 - Copy [`merge-vscode.py`](merge-vscode.py) to your scripts directory
@@ -35,6 +35,7 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 ```
 
 ### 3. NeoVim
+
 **Install via `lazy.nvim`**
 
 ```lua
@@ -53,7 +54,7 @@ post_hook = "python ~/.config/scripts/merge-vscode.py & pkill -SIGUSR1 nvim"
 
 > **Note:** If the palette file fails to load, the plugin falls back to a built-in dark theme and notifies you
 
-for more info go to the [`plugins_repo`](https://github.com/Senal-D-A-Gunaratna/matugen.nvim)
+The Neovim plugin works decoupled from this repo. For installation, configuration, and all documentation, refer to its own repository: [matugen.nvim](https://github.com/Senal-D-A-Gunaratna/matugen.nvim)
 
 ### 4. Hyprland opacity
 
@@ -63,13 +64,13 @@ Apply opacity via Hyprland window rules — neovim won't look good without it:
 local editor_opacity = 0.7
 
 hl.window_rule({
-	match = { class = "codium" },
-	opacity = editor_opacity,
+ match = { class = "codium" },
+ opacity = editor_opacity,
 })
 
 hl.window_rule({
-	match = { class = "kitty", title = "nvim" },
-	opacity = editor_opacity,
+ match = { class = "kitty", title = "nvim" },
+ opacity = editor_opacity,
 })
 ```
 
